@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercícios - Nível Difícil</title>
+</head>
+<body>
+  <script>
+    var codigo = parseInt(prompt("Digite o código do item pedido:"));
+    var quantidade = parseInt(prompt("Digite a quantidade:"));
+    var valorAPagar;
+
+    if (codigo === 100) {
+      valorAPagar = quantidade * 2.00;
+    } else if (codigo === 101) {
+      valorAPagar = quantidade * 5.00;
+    } else if (codigo === 102) {
+      valorAPagar = quantidade * 6.50;
+    } else if (codigo === 103) {
+      valorAPagar = quantidade * 7.00;
+    } else if (codigo === 104) {
+      valorAPagar = quantidade * 2.00;
+    } else if (codigo === 105) {
+      valorAPagar = quantidade * 3.00;
+    } else {
+      document.write("Código inválido");
+    }
+
+    if (valorAPagar !== undefined) {
+      document.write("Valor a pagar: R$" + valorAPagar.toFixed(2));
+    }
+  </script>
+</body>
+</html>

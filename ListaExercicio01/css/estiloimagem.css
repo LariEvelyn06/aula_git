@@ -1,0 +1,23 @@
+div.corpoPagina {
+    margin-top: 40px;
+ }
+ 
+ div.central {
+    width: 1024px;
+    font-family: 'SegoeUI-Light' !important;
+    text-align: left;
+ }
+ 
+ table.imagens {
+    width: 100%;
+    text-align: center;
+    border-spacing: 20px;
+    color: #424242;
+    font-weight: bold;
+ }
+ 
+ .tamanhoFotosPaginaImagens {
+    width: 350px;
+    height: 300px;
+ }
+ 

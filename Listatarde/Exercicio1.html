@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Recrutas</title>
+</head>
+
+<body>
+    <script>
+    var  primeiroNome = prompt("Informe o primeiro nome do recruta:");
+    var sobrenome = prompt("Informe o sobrenome do recruta:");
+    var campoDeEstudo = prompt("Qual é o campo de estudo do recruta?");
+    var anoDeNascimento = prompt("Qual é o ano de nascimento do recruta?");
+
+    document.write(primeiroNome+ sobrenome+campoDeEstudo+anoDeNascimento);
+    alert(
+         "Recruta cadastrado com sucesso!\n" + 
+         "\nNome completo: " + primeiroNome + " " + sobrenome + 
+         "\nCampo de estudo: " + campoDeEstudo + 
+         "\nIdade: " + (2023 - anoDeNascimento) 
+    )
+</script>
+</body>
